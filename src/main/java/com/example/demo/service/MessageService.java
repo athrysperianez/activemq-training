@@ -7,6 +7,5 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 @Service
 public interface MessageService {
-
 	public void sendMessage(DataDTO dto) throws JsonProcessingException;
 }
